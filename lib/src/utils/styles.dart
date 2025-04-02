@@ -5,7 +5,7 @@ import 'colors.dart';
 class AppStyles {
   static TextStyle textStyle(bool isDarkMode, BuildContext context) {
     final Color color =
-        isDarkMode ? AppColors.textSecondary : AppColors.textPrimary;
+    isDarkMode ? AppColors.textSecondary : AppColors.textPrimary;
 
     final double fontSize = MediaQuery.of(context).size.height / 45;
 
@@ -30,7 +30,7 @@ class AppStyles {
 
   static TextStyle displayTextStyle(bool isDarkMode, BuildContext context) {
     final Color color =
-        isDarkMode ? AppColors.textSecondary : AppColors.textPrimary;
+    isDarkMode ? AppColors.textSecondary : AppColors.textPrimary;
 
     return TextTheme.of(context).displayMedium!.copyWith(
       color: color,
@@ -49,7 +49,7 @@ class AppStyles {
 
   static TextStyle displaySubTextStyle(bool isDarkMode, BuildContext context) {
     final Color color =
-        isDarkMode ? AppColors.textTertiary : AppColors.textTertiary;
+    isDarkMode ? AppColors.textTertiary : AppColors.textTertiary;
 
     return TextTheme.of(context).displaySmall!.copyWith(
       color: color,

@@ -1,6 +1,5 @@
-
-import 'package:calculator_app/lib/src/models/symbols.dart';
-import 'package:calculator_app/lib/src/utils/services/calculator_service.dart';
+import 'package:calculator_app/src/models/symbols.dart';
+import 'package:calculator_app/src/utils/services/calculator_service.dart';
 
 class KeyboardService {
   String inputNumber(String expression, String number) {

@@ -1,4 +1,4 @@
-import 'package:calculator_app/lib/src/widgets/svg_icon_widget.dart';
+import 'package:calculator_app/src/widgets/svg_icon_widget.dart';
 import 'package:flutter/material.dart';
 
 import '../models/symbols.dart';

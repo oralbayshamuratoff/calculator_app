@@ -1,10 +1,10 @@
-import 'package:calculator_app/lib/src/models/symbols.dart';
-import 'package:calculator_app/lib/src/widgets/switch_theme_button.dart';
+import 'package:calculator_app/src/models/symbols.dart';
 import 'package:flutter/material.dart';
 import '../utils/services/calculator_service.dart';
 import '../utils/services/keyboard_service.dart';
 import '../utils/styles.dart';
 import '../widgets/button_widget.dart';
+import '../widgets/switch_theme_button.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
